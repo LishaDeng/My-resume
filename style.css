@@ -1,3 +1,4 @@
+
 @import url(http://fonts.googleapis.com/css?family=Meddon);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
@@ -83,9 +84,9 @@ section {
 }
 
 section#home { background-color: #00c0e4; margin-top: 70px;}
-section#about { background-color: #eac14d; }
-section#clients { background-color: #e6567a; }
-section#contact-us { background-color: #5bd999; }
+section#AbouMe { background-color: #eac14d; }
+section#MyPortfolio { background-color: #e6567a; }
+section#contact-me { background-color: #5bd999; }
 
 section h2 {
   color: white;
@@ -96,43 +97,236 @@ section h2 {
 }
 
 section .container{
-  margin: 0 auto;
+  margin: 0px auto;
   text-align: center;
   width: 100%;
-  height: 365px;
+  height: 370px;
+  margin-top: 20px;
 }
 
 section .illustration1 {
+  background-image: url('image/IMG_1026.jpg');
+  background-size:cover;
   width: 30%;
   height: 365px;
   border: 3px solid white;
-  background: url(http://placekitten.com/g/800/240) no-repeat;
   float: left;
 }
 
 section .illustration2 {
+  background-image: url('image/011.jpg');
+  background-size:cover;
   width: 30%;
   height: 365px;
   border: 3px solid white;
-  background: url(http://placekitten.com/g/800/240) no-repeat;
   left: 34%;
-  margin-left:50px;
+  margin-left:85px;
   float: left;
 }
 
 section .illustration3 {
+  background-image: url('image/contact-me.jpg');
+  background-size:cover;
   width: 30%;
   height: 365px;
   border: 3px solid white;
-  background: url(http://placekitten.com/g/800/240) no-repeat;
-  left: 68%;
-  margin-left:50px;
+  float: right;
+}
+
+.wrap {
+  padding: 50px 0 0 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrap .image1 {
+  background-image: url('image/01.jpg');
+  background-size:cover;
   float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image1:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image2 {
+  background-image: url('image/04.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image2:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image3 {
+  background-image: url('image/10.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image3:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image4 {
+  background-image: url('image/12.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image4:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image5 {
+  background-image: url('image/18.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image5:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image6 {
+  background-image: url('image/22.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image6:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image7 {
+  background-image: url('image/27.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image7:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image8 {
+  background-image: url('image/28.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image8:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image9 {
+  background-image: url('image/30.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image9:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image10 {
+  background-image: url('image/34.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image10:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.MyIntroduce{
+  background-image: url('image/02.jpg');
+  background-size: cover;
+  color: #262626;
+  width: 100%;
+  height: 690px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.me{
+  background-image: url('image/me.png');
+  background-size:cover;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 0px auto
 }
 
 section p {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 26px;
+  text-align: center;
 }
